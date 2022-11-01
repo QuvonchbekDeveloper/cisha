@@ -1,0 +1,12 @@
+﻿System.Console.Write("Assalom alauykum ismingizni kiriting: ");
+string name = Console.ReadLine();
+string greeting = $"Assalom alaykum, {name} hush kelibsiz";
+System.Console.WriteLine(greeting);
+System.Console.Write("Yoshingizni kiriting: ");
+string ageAsString = Console.ReadLine();
+System.Console.WriteLine("Kuting....");
+int age = Convert.ToInt32(ageAsString);
+System.Console.WriteLine($"Siz {age} yoshdasiz");
+int cishaAge = 5;
+int ageSevinch = age-cishaAge;
+System.Console.WriteLine($"Sizning yoshingiz cishaning yoshidan {age} yoshga ga katta");
